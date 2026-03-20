@@ -1,54 +1,53 @@
-# Hi, I'm Karl — I build MCP Servers for AI Agents
+# 👋 Hi, I'm AiAgentKarl
 
-I create specialized [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) servers that give AI agents access to real-world data. All open-source, most completely free to use.
+Building the infrastructure for the **AI Agent Economy** — 40+ open-source MCP servers across Python and JavaScript.
 
-## My MCP Servers
+## 🚀 What I Build
 
-| Server | What it does | API Keys needed? |
-|--------|-------------|-----------------|
-| [Solana MCP Server](https://github.com/AiAgentKarl/solana-mcp-server) | Crypto wallets, token prices, DeFi yields, whale tracking, safety checks | Helius (free) |
-| [Germany Open Data MCP](https://github.com/AiAgentKarl/germany-mcp-server) | German public data — Destatis, DWD weather, Bundesanzeiger | No |
-| [Agriculture MCP Server](https://github.com/AiAgentKarl/agriculture-mcp-server) | Global farming data — crop stats, soil data, food prices | No |
-| [EU Company MCP Server](https://github.com/AiAgentKarl/eu-company-mcp-server) | European company data — registries, financials, LEI lookup | No |
-| [Space MCP Server](https://github.com/AiAgentKarl/space-mcp-server) | NASA & ESA data — asteroids, Mars rovers, space weather | NASA (free) |
-| [Aviation MCP Server](https://github.com/AiAgentKarl/aviation-mcp-server) | Flight tracking, airports, airlines, aircraft data | AviationStack (free) |
-| [Weather MCP Server](https://github.com/AiAgentKarl/weather-mcp-server) | Global weather, forecasts, air quality, marine conditions | No |
+MCP (Model Context Protocol) servers that give AI agents access to real-world data and tools.
 
-## Quick Start
+### 📊 By the Numbers
+- **40+** MCP Servers published
+- **2** Ecosystems: Python (PyPI) + JavaScript (npm)
+- **15+** Categories from Blockchain to Legal to Weather
+- **0** API keys needed for most servers
 
-Most servers work with a single command:
+### 🏗️ Featured Servers
 
-```bash
-pip install solana-mcp-server
-```
+| Server | Description | Install |
+|--------|-------------|---------|
+| [Solana MCP](https://github.com/AiAgentKarl/solana-mcp-server) | Blockchain, DeFi, Wallet data | `pip install solana-mcp-server` |
+| [MCP Hub](https://github.com/AiAgentKarl/mcp-appstore-server) | App Store for MCP — discover 50+ servers | `pip install mcp-appstore-server` |
+| [Policy Gateway](https://github.com/AiAgentKarl/agent-policy-gateway-mcp) | GDPR, AI Act compliance, PII filtering | `pip install agent-policy-gateway-mcp` |
+| [Agent Memory](https://github.com/AiAgentKarl/agent-memory-mcp-server) | Persistent knowledge storage | `pip install agent-memory-mcp-server` |
+| [Weather](https://github.com/AiAgentKarl/weather-mcp-server) | Global weather, forecasts, air quality | `pip install openmeteo-mcp-server` |
+| [Context Optimizer](https://github.com/AiAgentKarl/agent-context-optimizer-mcp) | Solve context window overload | `pip install agent-context-optimizer-mcp` |
+| [A2A Protocol](https://github.com/AiAgentKarl/a2a-protocol-mcp-server) | Google Agent2Agent bridge | `pip install a2a-protocol-mcp-server` |
 
-Then add to your Claude Code `.mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "solana": {
-      "command": "uvx",
-      "args": ["solana-mcp-server"]
-    }
-  }
-}
-```
-
-## About
-
-Building the infrastructure layer for the AI agent economy. If agents are the future, they need reliable data sources — that's what I provide.
-
----
-
-## More MCP Servers by AiAgentKarl
+### 📦 Categories
 
 | Category | Servers |
 |----------|---------|
-| 🔗 Blockchain | [Solana](https://github.com/AiAgentKarl/solana-mcp-server) |
-| 🌍 Data | [Weather](https://github.com/AiAgentKarl/weather-mcp-server) · [Germany](https://github.com/AiAgentKarl/germany-mcp-server) · [Agriculture](https://github.com/AiAgentKarl/agriculture-mcp-server) · [Space](https://github.com/AiAgentKarl/space-mcp-server) · [Aviation](https://github.com/AiAgentKarl/aviation-mcp-server) · [EU Companies](https://github.com/AiAgentKarl/eu-company-mcp-server) |
-| 🔒 Security | [Cybersecurity](https://github.com/AiAgentKarl/cybersecurity-mcp-server) · [Policy Gateway](https://github.com/AiAgentKarl/agent-policy-gateway-mcp) · [Audit Trail](https://github.com/AiAgentKarl/agent-audit-trail-mcp) |
-| 🤖 Agent Infra | [Memory](https://github.com/AiAgentKarl/agent-memory-mcp-server) · [Directory](https://github.com/AiAgentKarl/agent-directory-mcp-server) · [Hub](https://github.com/AiAgentKarl/mcp-appstore-server) · [Reputation](https://github.com/AiAgentKarl/agent-reputation-mcp-server) |
-| 🔬 Research | [Academic](https://github.com/AiAgentKarl/crossref-academic-mcp-server) · [LLM Benchmark](https://github.com/AiAgentKarl/llm-benchmark-mcp-server) · [Legal](https://github.com/AiAgentKarl/legal-court-mcp-server) |
+| 🔗 Blockchain/DeFi | Solana, x402 Payments |
+| 🌍 Open Data | Weather, Germany, Agriculture, Space, Aviation, EU Companies, Energy |
+| 🔒 Security/Compliance | Cybersecurity, Policy Gateway, Audit Trail |
+| 🤖 Agent Infrastructure | Memory, Directory, Hub, Reputation, Workflow, Analytics, Optimizer |
+| 🔬 Research | Academic, LLM Benchmark, Legal Court |
+| 🏥 Health | Medical/WHO Data |
+| 🛒 Commerce | Product Protocol, Agent Commerce |
+| 🔗 Protocols | A2A, Server Cards, Interface Standard |
+| 🐝 Swarm Intelligence | Hive Mind |
 
-[→ Full catalog (40+ servers)](https://github.com/AiAgentKarl)
+### 🌐 Also on npm (JavaScript)
+
+```
+npm install @aiagentkarl/mcp-hub-server
+npm install @aiagentkarl/weather-mcp-server
+npm install @aiagentkarl/agent-memory-mcp-server
+npm install @aiagentkarl/agent-policy-gateway-mcp
+npm install @aiagentkarl/a2a-protocol-mcp-server
+```
+
+---
+
+🌐 [Full Server Catalog](https://aiagentkarl.github.io) · 📦 [PyPI](https://pypi.org/user/AiKarlo/) · 📦 [npm](https://www.npmjs.com/~aiagentkarl)
